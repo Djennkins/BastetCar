@@ -751,3 +751,153 @@ body {
 .switches-popular__common {}
 
 .switches-popular__selected {}
+
+
+/* ***************************** HELP SECTION ***************************** */
+
+.help {
+	background-image: url(../img/help/bgsvg.svg);
+	background-repeat: no-repeat;
+	height: 1148.5px;
+	margin-bottom: 200px;
+}
+
+.help__container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.left-column-help {}
+
+.left-column-help__logo {
+	margin-top: 240px;
+	margin-bottom: 58px;
+}
+
+.left-column-help__illustration {}
+
+.left-column-help__illustration img {
+	display: block;
+}
+
+.illustration-left-column-help {}
+
+.illustration-left-column-help__car {
+	position: relative;
+	z-index: 1;
+}
+
+.illustration-left-column-help__ellipse {
+	margin-top: -200px;
+	position: relative;
+
+}
+
+.right-column-help {
+	margin-top: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.right-column-help__title {
+	color: #FFF;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.55px;
+	text-transform: uppercase;
+	margin-bottom: 32px;
+}
+
+.right-column-help__desc {
+	margin-bottom: 24px;
+	text-align: center;
+	color: #FFF;
+	font-family: Signika;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 140%;
+}
+
+
+.form-help {
+	margin: 0 auto;
+	margin-bottom: 24px;
+	width: 480px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 12px;
+	row-gap: 12px;
+}
+
+.form-help__left-side {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.help-input {
+	width: 234px;
+	height: 52px;
+	border-radius: 4px;
+	border: 2px solid white;
+	padding: 24px 16px;
+	background-color: rgba(34, 173, 170, 1);
+}
+
+.form-help__text {}
+
+.form-help__number {}
+
+.form-help__type {}
+
+.form-help__notes {
+	width: 234px;
+	height: 180px;
+	border-radius: 4px;
+	border: 2px solid white;
+	padding: 24px 16px;
+	background-color: rgba(34, 173, 170, 1);
+
+}
+
+.form-help__notes::placeholder {
+	vertical-align: top;
+}
+
+.right-column-help__confirm {
+	margin-bottom: 24px;
+	max-width: 260px;
+	color: #EBEBEB;
+	text-align: center;
+	font-family: Signika;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+}
+
+.right-column-help__button {
+	width: 235px;
+	height: 52px;
+	padding: 16px 24px;
+	cursor: pointer;
+	color: var(--2, #1B1821);
+	font-family: Signika;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	border-radius: 4px;
+	background: #FFF;
+	box-shadow: 11px 13px 28px 0px rgba(0, 0, 0, 0.30);
+}
+
+
+/* ***************************** HELP SECTION ***************************** */

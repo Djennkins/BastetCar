@@ -1026,3 +1026,69 @@ body {
 }
 
 .content-item__desc {}
+
+/* ***************************** CALCULATOR SECTION ***************************** */
+
+.calculator {
+	background-image: url(../img/calculator/bg.svg);
+}
+
+.calculator__container {
+	margin-left: 0;
+	padding: 0px;
+	height: 1148.5px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 100px;
+}
+
+.calculator-img {}
+
+.calculator__title {
+	text-transform: uppercase;
+	color: #FFF;
+	font-family: Roboto;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.55px;
+	margin-bottom: 48px;
+}
+
+.content-calculator {
+	max-width: 463px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 24px;
+}
+
+.content-calculator__desc {
+	color: #FFF;
+	font-family: Signika;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 140%;
+}
+
+.content-calculator__short-desc {
+	max-width: 367px;
+	color: #FFF;
+	font-family: Signika;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 140%;
+}
+
+.content-calculator__button {
+	width: 235px;
+	height: 52px;
+	padding: 16px 24px;
+	border-radius: 4px;
+	background: #FFF;
+	box-shadow: 11px 13px 28px 0px rgba(0, 0, 0, 0.30);
+	cursor: pointer;
+}

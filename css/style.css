@@ -900,4 +900,129 @@ body {
 }
 
 
-/* ***************************** HELP SECTION ***************************** */
+/* ***************************** STAGES SECTION ***************************** */
+
+.stages {
+	margin-bottom: 200px;
+}
+
+.stages__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.stages__title {
+	text-transform: uppercase;
+	color: #1B1821;
+	font-family: Roboto;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-bottom: 65px
+}
+
+.template-stages {
+	display: grid;
+	grid-template-columns: 1fr 2px 1fr;
+	column-gap: 130px;
+}
+
+
+.template-stages__left {
+	margin-top: 28px;
+}
+
+.left-items {
+	display: flex;
+	flex-direction: column;
+	row-gap: 165px;
+}
+
+.left-item {}
+
+.item {
+	width: 382px;
+	/* border: 2px solid black; */
+}
+
+.item__images {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	/* margin: 32px 0; */
+}
+
+.images-title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	row-gap: 32px;
+}
+
+.images-number {
+	height: fit-content;
+}
+
+.content-item__title {
+	color: var(--2, #1B1821);
+	font-family: Signika;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.content-item__desc {
+	margin-top: 8px;
+	color: var(--2, #1B1821);
+	font-family: Signika;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 140%;
+	/* 22.4px */
+}
+
+.template-stages__vetical-line {
+	margin: 0 auto;
+}
+
+.template-stages__right {}
+
+.right-items {
+	margin-top: 220px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 130px;
+}
+
+.right-item {
+	display: flex;
+	flex-direction: row;
+	gap: 23px;
+}
+
+.right-item__number {
+	height: fit-content;
+	margin: 0 auto;
+}
+
+.right-item__content {}
+
+.right-item__head {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 32px;
+}
+
+.content-item__title {
+	text-align: left;
+}
+
+.content-item__desc {}

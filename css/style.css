@@ -1032,6 +1032,8 @@ body {
 
 .calculator {
 	background-image: url(../img/calculator/bg.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
 	margin-bottom: 200px;
 }
 
@@ -1296,3 +1298,159 @@ body {
 }
 
 /* ***************************** FOOTER SECTION ***************************** */
+.footer {
+	background-image: url(../img/footer/footer-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 513px;
+}
+
+.footer__container {}
+
+.container-footer__columns {
+	display: flex;
+	gap: 325px;
+}
+
+.container-footer__data {
+	color: #FFF;
+	font-family: Signika;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 100%;
+	/* 14px */
+	margin-top: 42px;
+	display: flex;
+	gap: 8px;
+}
+
+.left-container-footer {
+	margin-top: 120px;
+}
+
+.left-container-footer__logo {
+	margin-bottom: 52px;
+}
+
+.left-container-footer__description {}
+
+.description-left-container-footer {
+	display: flex;
+	gap: 240px;
+}
+
+.footer-nav-menu {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.footer-nav-menu__item {
+	color: #FFF;
+	font-family: Signika;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.footer-contacts {
+	display: flex;
+	flex-direction: column;
+	row-gap: 16px;
+}
+
+.footer-contacts__tel {
+	display: flex;
+	flex-direction: row;
+	gap: 16px;
+	align-items: center;
+}
+
+.tel-footer-contacts__numbers {
+	color: #FFF;
+	font-family: Signika;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.footer-contacts__location {
+	display: flex;
+	gap: 16px;
+	align-items: center;
+	color: #FFF;
+	font-family: Signika;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.footer-contacts__mail {
+	display: flex;
+	gap: 16px;
+	align-items: center;
+	color: #FFF;
+	font-family: Signika;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.container-footer__right {
+	margin-top: 190px;
+}
+
+.right-container-footer {}
+
+.right-container-footer__socials {
+	display: flex;
+	gap: 46px;
+}
+
+.right-container-footer__consult {}
+
+.consult-footer {
+	margin-top: 120px;
+	margin-left: -150px;
+}
+
+.consult-footer__title {
+	color: #FFF;
+	font-family: Signika;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 16px;
+}
+
+
+.consult-footer__form {
+	display: flex;
+	gap: 8px;
+}
+
+.consult-footer__input {
+	color: #FFF;
+	width: 234px;
+	height: 52px;
+	padding: 24px 16px;
+	border-radius: 4px;
+	border: 2px solid #FFF;
+	background: rgba(255, 255, 255, 0.00);
+}
+
+.consult-footer__button {
+	width: 134px;
+	height: 52px;
+	padding: 16px 24px;
+	border-radius: 4px;
+	background: #FFF;
+	box-shadow: 11px 13px 28px 0px rgba(0, 0, 0, 0.30);
+	cursor: pointer;
+}
